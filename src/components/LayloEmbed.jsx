@@ -45,7 +45,7 @@ const LayloEmbed = () => {
           border: 'none',
           display: 'block'
         }}
-        src="https://embed.laylo.com?dropId=fw8dL&color=FF6200&minimal=false&theme=dark&background=solid"
+        src="https://embed.laylo.com?dropId=fw8dL&color=1a4db0&minimal=false&theme=dark&background=solid"
         loading="lazy"
       />
     </div>

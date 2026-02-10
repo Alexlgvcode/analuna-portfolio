@@ -8,7 +8,6 @@ function Shows() {
     <div className="shows-page">
       <div className="shows-container">
         <h1>Upcoming Shows</h1>
-        <p className="shows-subtitle">Catch Ana Luna live!</p>
         
         <div className="show-featured">
           <img src={showPhoto} alt="Ana Luna Live Show" className="show-image" />
