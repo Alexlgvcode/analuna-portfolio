@@ -1,0 +1,182 @@
+.shows-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f1e2e 0%, #1a3a52 50%, #0a1428 100%);
+}
+
+.shows-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.shows-container h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #7bb3f0;
+}
+
+.shows-subtitle {
+  font-size: 18px;
+  text-align: center;
+  color: #a0a0a0;
+  margin-bottom: 60px;
+}
+
+.show-featured {
+  margin-bottom: 60px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: rgba(167, 139, 250, 0.1);
+  border: 2px solid #4a90e2;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.show-details {
+  padding: 30px;
+  text-align: center;
+}
+
+.show-details h2 {
+  font-size: 28px;
+  color: #7bb3f0;
+  margin-bottom: 10px;
+}
+
+.show-date {
+  font-size: 18px;
+  color: #e0e0e0;
+  margin-bottom: 25px;
+}
+
+.btn-tickets {
+  background: linear-gradient(135deg, #4a90e2 0%, #7bb3f0 100%);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-tickets:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(167, 139, 250, 0.6);
+}
+
+.bandsintown-section {
+  text-align: center;
+  padding: 40px;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  background: rgba(167, 139, 250, 0.15);
+  backdrop-filter: blur(10px);
+  margin-bottom: 60px;
+}
+
+.bandsintown-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #7bb3f0;
+}
+
+.bandsintown-section p {
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.btn-bandsintown {
+  background: linear-gradient(135deg, #00d4aa 0%, #00a67e 100%);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-bandsintown:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 212, 170, 0.4);
+}
+
+.shows-content {
+  margin-top: 40px;
+}
+
+.no-shows-message {
+  text-align: center;
+  padding: 60px 40px;
+  border-radius: 10px;
+  background: rgba(167, 139, 250, 0.1);
+}
+
+.no-shows-message h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #c4b5fd;
+}
+
+.no-shows-message p {
+  font-size: 16px;
+  color: #a0a0a0;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .shows-container {
+    padding: 40px 20px;
+  }
+
+  .shows-container h1 {
+    font-size: 36px;
+  }
+
+  .show-details {
+    padding: 20px;
+  }
+
+  .show-details h2 {
+    font-size: 22px;
+  }
+
+  .show-date {
+    font-size: 16px;
+  }
+
+  .bandsintown-section {
+    padding: 30px 20px;
+  }
+
+  .bandsintown-section h2 {
+    font-size: 24px;
+  }
+
+  .no-shows-message {
+    padding: 40px 20px;
+  }
+
+  .no-shows-message h3 {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,32 @@
+.archive-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f1e2e 0%, #1a3a52 50%, #0a1428 100%);
+}
+
+.archive-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.archive-container h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #c4b5fd;
+}
+
+.archive-container p {
+  font-size: 18px;
+  color: #a0a0a0;
+}
+
+@media (max-width: 768px) {
+  .archive-container {
+    padding: 40px 20px;
+  }
+
+  .archive-container h1 {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,159 @@
+.support-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f1e2e 0%, #1a3a52 50%, #0a1428 100%);
+}
+
+.support-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.support-container h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #7bb3f0;
+}
+
+.support-subtitle {
+  font-size: 18px;
+  text-align: center;
+  color: #a0a0a0;
+  margin-bottom: 60px;
+}
+
+.support-section {
+  text-align: center;
+  padding: 40px;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  background: rgba(167, 139, 250, 0.15);
+  backdrop-filter: blur(10px);
+  margin-bottom: 60px;
+}
+
+.support-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #7bb3f0;
+}
+
+.support-text {
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-bottom: 35px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.support-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 14px 32px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-gofundme {
+  background: linear-gradient(135deg, #02a95c 0%, #00843c 100%);
+  color: white;
+}
+
+.btn-gofundme:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(2, 169, 92, 0.4);
+}
+
+.btn-bandcamp {
+  background: linear-gradient(135deg, #1da0c3 0%, #158ca7 100%);
+  color: white;
+}
+
+.btn-bandcamp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(29, 160, 195, 0.4);
+}
+
+.btn-shows {
+  background: linear-gradient(135deg, #00d4aa 0%, #00a67e 100%);
+  color: white;
+}
+
+.btn-shows:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 212, 170, 0.4);
+}
+
+.merch-section {
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  background: rgba(167, 139, 250, 0.1);
+}
+
+.merch-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #7bb3f0;
+}
+
+.merch-coming-soon {
+  padding: 40px;
+  border: 2px dashed #4a90e2;
+  border-radius: 10px;
+  background: rgba(167, 139, 250, 0.05);
+}
+
+.merch-coming-soon h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #7bb3f0;
+}
+
+.merch-coming-soon p {
+  font-size: 16px;
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .support-container {
+    padding: 40px 20px;
+  }
+
+  .support-container h1 {
+    font-size: 36px;
+  }
+
+  .support-section, .merch-section {
+    padding: 30px 20px;
+  }
+
+  .support-section h2, .merch-section h2 {
+    font-size: 24px;
+  }
+
+  .support-buttons {
+    max-width: 100%;
+  }
+
+  .merch-coming-soon {
+    padding: 30px 20px;
+  }
+}
