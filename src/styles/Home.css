@@ -214,6 +214,8 @@
 @media (max-width: 768px) {
   .hero-section {
     padding: 60px 20px;
+    background-attachment: scroll;
+    background-position: center center;
   }
 
   .social-icons-hero {

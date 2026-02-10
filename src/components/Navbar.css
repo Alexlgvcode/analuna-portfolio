@@ -89,7 +89,8 @@
     padding: 15px 20px;
   }
 
-  .navbar-logo img {
+  .navbar-logo img,
+  .navbar-logo img.logo-large {
     height: 48px;
   }
 
